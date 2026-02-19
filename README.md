@@ -1,5 +1,13 @@
 # sonobe
 
+> [!NOTE]
+> We are refactoring the codebase to improve modularity and developer experience.
+> Latest updates can be found in the [`dev` branch](https://github.com/privacy-ethereum/sonobe/tree/dev).
+>
+> At the same time, we are also preparing for audits of Sonobe, which will focus on the Nova folding scheme and an IVC scheme based on Nova via the CycleFold compiler.
+> Audits will be performed on the [`staging` branch](https://github.com/privacy-ethereum/sonobe/tree/staging), which currently only contains the revamped Nova and CycleFold implementations from `dev`.
+> After the audits are completed, we will merge `staging` into `main`, create the first release of Sonobe, and continue porting the rest of schemes and features from `dev` to `staging` (and then to `main`).
+
 Experimental folding schemes library implemented jointly by [0xPARC](https://0xparc.org/) and [PSE](https://pse.dev).
 
 <img align="right" style="width:30%;min-width:250px;margin-bottom:20px;" src="https://raw.githubusercontent.com/privacy-ethereum/sonobe-docs/refs/heads/main/src/imgs/sonobe.png">
